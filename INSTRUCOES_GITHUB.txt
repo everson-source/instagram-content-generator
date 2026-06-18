@@ -1,0 +1,54 @@
+📝 COMO ADICIONAR OS 3 ARQUIVOS NO GITHUB
+
+Você tem 3 arquivos para adicionar:
+
+1️⃣ ARQUIVO_1_instagram_content_generator.py
+   → Nome no GitHub: instagram_content_generator.py
+   → Onde colocar: na raiz (raiz do repositório)
+
+2️⃣ ARQUIVO_2_requirements.txt
+   → Nome no GitHub: requirements.txt
+   → Onde colocar: na raiz
+
+3️⃣ ARQUIVO_3_instagram-generator.yml
+   → Nome no GitHub: instagram-generator.yml
+   → Onde colocar: .github/workflows/instagram-generator.yml
+   ⚠️ ATENÇÃO: Esse precisa estar DENTRO da pasta .github/workflows/
+
+---
+
+## PASSO A PASSO NO GITHUB
+
+### Para os 2 primeiros arquivos (raiz):
+
+1. No seu repositório, clica em **Add file** → **Create new file**
+2. Nome: `instagram_content_generator.py`
+3. Cola o conteúdo do ARQUIVO_1
+4. Clica em **Commit changes**
+
+Repete para `requirements.txt` com o ARQUIVO_2
+
+### Para o terceiro arquivo (workflow):
+
+1. Clica em **Add file** → **Create new file**
+2. Na caixa de nome, coloca: `.github/workflows/instagram-generator.yml`
+   (GitHub cria as pastas automaticamente)
+3. Cola o conteúdo do ARQUIVO_3
+4. Clica em **Commit changes**
+
+---
+
+## Depois que adicionar os 3 arquivos:
+
+Seu repositório deve ter essa estrutura:
+
+```
+instagram-content-generator/
+├── instagram_content_generator.py
+├── requirements.txt
+└── .github/
+    └── workflows/
+        └── instagram-generator.yml
+```
+
+Pronto! Próximo passo é o Secret do Google.
