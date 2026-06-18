@@ -338,7 +338,7 @@ def main():
         # Salva em Google Drive
         nome_arquivo = f"instagram_{conteudo['data']}_design{numero_design}.png"
         sheet_id = "16wDqZRZ0X3MYkO8UYWAdHoZSJG8zzvyOMjC1CS_OQXE"
-       folder_id = "0ACmLop-uoAa2Uk9PVA"
+        folder_id = "0ACmLop-uoAa2Uk9PVA"
         
         link = salvar_em_google_drive(img, nome_arquivo, folder_id, credentials)
         print(f"✅ Imagem salva: {link}")
